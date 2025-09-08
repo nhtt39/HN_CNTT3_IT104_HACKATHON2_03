@@ -1,0 +1,32 @@
+.container {
+  max-width: 1200px;
+}
+
+.header-card {
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.add-card,
+.list-card {
+  border-radius: 10px;
+  box-shadow: 0 2px 4px black;
+}
+
+.add-card h5 {
+  color: purple;
+}
+
+.badge.bg-success {
+  background-color: green !important;
+}
+
+.badge.bg-danger {
+  background-color: red !important;
+}
+
+.bi-box-seam {
+  font-size: 1.5rem;
+}
