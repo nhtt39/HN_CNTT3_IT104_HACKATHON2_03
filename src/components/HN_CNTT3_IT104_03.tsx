@@ -9,7 +9,7 @@ interface Product {
     inStock: boolean;
 }
 
-const ProductManagement = () => {
+const HN_CNTT3_IT104_03 = () => {
     const [products, setProducts] = useState<Product[]>([
         { id: 1, name: 'Laptop', price: 30000000, inStock: true },
         { id: 2, name: 'Chuột', price: 4200000, inStock: false },
@@ -158,4 +158,4 @@ const ProductManagement = () => {
     );
 };
 
-export default ProductManagement;
+export default HN_CNTT3_IT104_03;
